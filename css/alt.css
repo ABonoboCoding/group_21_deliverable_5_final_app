@@ -148,3 +148,16 @@ height:150px;
   right:10%;
 
 }
+
+/*techniques__format*/
+.techniques__format h1 {
+  text-align: center;
+}
+.techniques__format {
+  padding: 5px;
+  /*overflow: scroll;*/
+}
+
+.techniques__home_format {
+  text-align: center;
+}
