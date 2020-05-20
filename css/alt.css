@@ -8,7 +8,7 @@ body {
 /* navigation menu */
 
 .navbar {
-  overflow: hidden;
+  /*overflow:scroll;*/
   background-color: #791E94;
   position: fixed;
   bottom: 0;
@@ -63,7 +63,12 @@ body {
   border-color: lightgrey;
   color: black;
   width: 80%;
+}
 
+.card_spacing {
+  float: left;
+  width:320px;
+  padding-bottom: 10px;
 }
 
 img {
@@ -90,8 +95,11 @@ height:150px;
 
 .recipe_img {
   border-radius: 5px 5px 0 0;
-  width:100%;
-  height:150px;
+  max-width:320px;
+}
+
+.recipe_img img {
+  width: 100%;
 }
 
 .recipe_button {
@@ -100,7 +108,7 @@ height:150px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: auto;
   cursor: pointer;
   background-color: white;
   border-radius: 3px;
@@ -109,7 +117,7 @@ height:150px;
 
 .button_back {
   border-radius: 12px;
-  position: absolute;
+  position: fixed;
   bottom: 10%;
   left: 2%;
   border-color: lightgrey;
@@ -118,7 +126,7 @@ height:150px;
 
 .button_next {
   border-radius: 12px;
-  position: absolute;
+  position: fixed;
   bottom: 10%;
   right: 2%;
   border-color: lightgrey;
@@ -126,31 +134,28 @@ height:150px;
 
 }
 
-.button_demo_p {
+.button_demo {
   border-radius: 12px;
-  position:fixed;
+  float: left;
   border-color: lightgrey;
   border-width: 2px;
-  left:10%;
 }
 
-.button_demo_g {
+/*.button_demo_g {
   border-radius: 12px;
-  position: fixed;
+  position:relative;
   border-color: lightgrey;
   border-width: 2px;
   left: 43%;
-
 }
 
 .button_demo_v {
   border-radius: 12px;
-  position: fixed;
+  position:relative;
   border-color: lightgrey;
   border-width: 2px;
   right:10%;
-
-}
+}*/
 
 /*techniques__format*/
 .techniques__format h1 {
@@ -158,7 +163,6 @@ height:150px;
 }
 .techniques__format {
   padding: 5px;
-  /*overflow: scroll;*/
 }
 
 .techniques__home_format {
