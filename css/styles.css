@@ -1,5 +1,5 @@
 body {
-	background-color: #fff2e6;
+	background-color: #FFFFF2;
 }
 /*default display*/
 #homepage__layer {
@@ -29,12 +29,12 @@ body {
 }
 .cookbook__button {
 	text-align: center;
-	background-color: #007a87;
+	background-color: #41D3BD;
   border-radius: 3px;
   border: 1px solid #0000b3;
   font-size: 30px;
   width: 60%;
-  color: white;
+  color: #353866;
 	margin: 5px auto;
 }
 .cookbook__buttons:hover {
@@ -175,17 +175,17 @@ body {
 
 .techniques_button {
 	text-align: center;
-	background-color: #007a87;
+	background-color: #41D3BD;
   border-radius: 3px;
-  border: 1px solid #0000b3;
+  /*border: 1px solid #0000b3;*/
   font-size: 30px;
   width: 60%;
-  color: white;
+  color: #353866;
 	margin: 5px auto;
 }
-.techniques_button:hover {
+/*.techniques_button:hover {
 	background-color: #72ce98;
-}
+}*/
 
 .techiniques_content{
 	width: 95%;
@@ -196,12 +196,12 @@ body {
 
 a{
 text-decoration: none;
-color: white;
+/*color: white;*/
 }
 
 a:visited{
 text-decoration: none;
-color: white;
+/*color: white;*/
 }
 
 /*pop up window related styles*/

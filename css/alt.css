@@ -9,7 +9,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: lightgrey;
+  background-color: #791E94;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -30,13 +30,13 @@ body {
 }
 
 .navbar a:hover {
-  background: grey;
+  background: #edab9d;
   color: black;
 }
 
 .navbar a.active {
-  background-color: grey;
-  color: white;
+  background-color: #DE6449;
+  color: #FFFFF2;
 }
 
 .main {
@@ -102,6 +102,9 @@ height:150px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid black;
 }
 
 .button_back {
