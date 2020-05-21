@@ -1,41 +1,53 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+  min-width: 320px;
   height: 100%;
 }
 
 /* navigation menu */
+.blank{
+  clear:both;
+  overflow:hidden;
+  display:block;
+  overflow:hidden;
+}
 
 .navbar {
+  display: block;
   /*overflow:scroll;*/
-  background-color: #791E94;
+  background-color: #cccccc;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
 
+}
+.navbar-inner{
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
 }
 
 .navbar a {
   color: black;
   text-align: center;
+  width: 26%;
   display: inline-block;
-  padding: 14px 16px;
+  padding: 15px 13px;
   text-decoration: none;
   font-size: 17px;
   margin: 0px auto;
 }
 
 .navbar a:hover {
-  background: #edab9d;
+  background: #b3b3b3;
   color: black;
 }
 
 .navbar a.active {
-  background-color: #DE6449;
+  background-color: #999999;
   color: #FFFFF2;
 }
 
@@ -62,13 +74,26 @@ body {
   border-style: solid;
   border-color: lightgrey;
   color: black;
-  width: 80%;
+  max-width: 310px;
+  height: 320px;
 }
 
 .card_spacing {
   float: left;
-  width:320px;
   padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px auto;
+}
+
+.recipe_card_area{
+  width: 80%;
+}
+@media screen and (max-width: 410px){
+
+}
+@media screen and (max-width: 820px){
+
 }
 
 img {
@@ -95,7 +120,6 @@ height:150px;
 
 .recipe_img {
   border-radius: 5px 5px 0 0;
-  max-width:320px;
 }
 
 .recipe_img img {
