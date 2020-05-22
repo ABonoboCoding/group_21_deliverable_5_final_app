@@ -196,12 +196,12 @@ body {
 
 a{
 text-decoration: none;
-/*color: white;*/
+color: white;
 }
 
 a:visited{
 text-decoration: none;
-/*color: white;*/
+color: white;
 }
 
 /*pop up window related styles*/
